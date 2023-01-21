@@ -1,0 +1,462 @@
+/* css resets */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* custom styles */
+p {
+    line-height: 1.4;
+}
+
+.about-us {
+    background-image: linear-gradient(to left, aqua, blueviolet);
+    height: 50vh;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 900;
+    padding-top: 6rem;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 4rem;
+}
+
+.img {
+    height: 50vh;
+}
+
+.experience {
+    margin-left: 2rem;
+}
+
+.ten {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.payers {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blueviolet;
+}
+
+.mission {
+    text-align: center;
+    font-size: 3rem;
+    color: blue;
+}
+
+.simplify {
+    padding: 2rem 5rem 0rem 5rem;
+}
+
+.journey {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.team-img {
+    border-radius: 50%;
+    height: 40vh;
+}
+
+.team-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: blueviolet;
+    margin-left: 4rem;
+}
+
+.developer {
+    margin-left: 4rem;
+}
+
+.team {
+    margin-top: 5rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: #f2f2f2;
+    padding: 2rem 0;
+}
+
+footer h4 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer address {
+    font-family: "Archivo", sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
+
+footer address:hover {
+    color: #ffffff;
+}
+
+footer .footer-copyright {
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer .footer-copyright p {
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+footer .footer-copyright small {
+    font-size: 0.75rem;
+}
+.flex2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+.justify-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.justify-start {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.justify-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.justify-around {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.align-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.align-start {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.align-end {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.align-between {
+    -webkit-box-align: space-between;
+    -ms-flex-align: space-between;
+    align-items: space-between;
+}
+
+.align-around {
+    -webkit-box-align: space-around;
+    -ms-flex-align: space-around;
+    align-items: space-around;
+}
+
+.align-evenly {
+    -webkit-box-align: space-evenly;
+    -ms-flex-align: space-evenly;
+    align-items: space-evenly;
+}
+
+.flex-row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.flex-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-20 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 20%;
+    flex: 0 1 20%;
+}
+
+.flex-25 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 25%;
+    flex: 0 1 25%;
+}
+
+.flex-30 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 30%;
+    flex: 0 1 30%;
+}
+
+.flex-32 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 32%;
+    flex: 0 1 32%;
+}
+
+.flex-40 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+}
+
+.flex-48 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 48%;
+    flex: 0 1 48%;
+}
+
+.flex-50 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+}
+
+.flex-60 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 60%;
+    flex: 0 1 60%;
+}
+
+.flex-100 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    font-family: "Archivo", sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.padding {
+    padding: 4rem 0;
+}
+
+a {
+    text-decoration: none;
+}
